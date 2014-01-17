@@ -6,3 +6,5 @@ require 'respect'
 ARGV.each do |specfile|
   load(specfile)
 end
+
+Respect.run_suite
