@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << 'lib'
+require 'respect'
+
+ARGV.each do |specfile|
+  load(specfile)
+end
